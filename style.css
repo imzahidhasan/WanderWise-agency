@@ -6,7 +6,8 @@
     box-sizing: border-box;
 
 }
-header{
+
+header {
     margin-top: 25px;
 }
 
@@ -71,15 +72,19 @@ nav {
         display: none;
 
     }
-    nav{
-        gap:10px;
+
+    nav {
+        padding: 5px;
+        gap: 10px;
     }
+
     .menu-icon i {
         display: block;
         font-size: 25px;
 
     }
-    header{
+
+    header {
         margin-top: 10px;
     }
 
