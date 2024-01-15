@@ -60,15 +60,26 @@ nav {
 }
 
 @media screen and (max-width: 600px) {
+    body{
+        max-width: 600px;
+    }
     .nav-menu ul {
         display: none;
+
     }
 
     .menu-icon i {
         display: block;
         font-size: 40px;
-        
+
     }
 
+    .nav-logo {
+        font-size: 15px;
+        font-weight: 800;
+    }
+        .nav-logo img {
+            width: 50px;
+        }
 
 }
