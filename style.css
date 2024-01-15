@@ -6,10 +6,13 @@
     box-sizing: border-box;
 
 }
+header{
+    margin-top: 25px;
+}
 
 body {
     max-width: 1365px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     font-family: 'Mulish', sans-serif;
     margin: 0 auto;
 }
@@ -27,7 +30,7 @@ nav {
     font-size: 30px;
     font-weight: 800;
     height: 56px;
-    min-width: 400px;
+    /* min-width: 400px; */
 }
 
 .nav-logo img {
@@ -68,17 +71,22 @@ nav {
         display: none;
 
     }
-
+    nav{
+        gap:10px;
+    }
     .menu-icon i {
         display: block;
-        font-size: 30px;
+        font-size: 25px;
 
+    }
+    header{
+        margin-top: 10px;
     }
 
     .nav-logo {
         font-size: 10px;
         font-weight: 800;
-        min-width: 200px;
+        /* min-width: 200px; */
     }
 
     .nav-logo img {
