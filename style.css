@@ -63,9 +63,90 @@ nav {
     display: none;
 }
 
+.banner-section {
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("Images/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80%;
+    height: 500px;
+    margin: auto;
+
+}
+
+
+.text-box {
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.banner-section .text-box h2 {
+    text-align: center;
+    color: #FFF;
+    padding: 30px;
+    font-size: 64px;
+    font-weight: 800;
+
+}
+
+.banner-section .text-box p {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 15px;
+}
+
+.select-ooptions {
+    text-align: center;
+    width: 80%;
+    margin: 100px;
+    padding: 16px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+.select-ooptions select {
+    width: 174px;
+    height: 52px;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+    background: #FFF;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+button {
+    border-radius: 8px;
+    background: #FF5400;
+    width: 174px;
+    height: 52px;
+    border: #FF5400;
+    cursor: pointer;
+    color: #FFF;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+button i {
+    margin-right: 10px;
+
+}
+
+
+
+
+
+
 @media screen and (max-width: 600px) {
     body {
         max-width: 600px;
+
     }
 
     .nav-menu ul {
@@ -91,11 +172,34 @@ nav {
     .nav-logo {
         font-size: 10px;
         font-weight: 800;
-        /* min-width: 200px; */
+        min-width: 200px;
     }
 
     .nav-logo img {
         width: 40px;
+    }
+
+    .banner-section {
+        height: auto;
+    }
+
+    .select-ooptions {
+        margin: 0 auto;
+    }
+
+    .select-ooptions select {
+        width: 90%;
+        height: 52px;
+        margin-top: 10px;
+
+
+    }
+
+    button {
+        margin-top: 10px;
+        width: 90%;
+        color: #FFF;
+        height: 52px;
     }
 
 }
