@@ -162,24 +162,52 @@
         width: 100%;
 
     }
-.place-text h2 {
-    font-size: 30px;
-    line-height: 40px;
-}
-.place-text p {
-    line-height: 30px;
-}
-.place-text button{
-    width: 120px;
-    margin: 15px auto;
 
-}
+    .place-text h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
 
-.place-text ul {
-    margin-left: 30px;
-}
+    .place-text p {
+        line-height: 30px;
+    }
 
+    .place-text button {
+        width: 120px;
+        margin: 15px auto;
 
+    }
+
+    .place-text ul {
+        margin-left: 30px;
+    }
+
+    .newslatter-section {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .input-section {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .img-side {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .offer-box-on-img {
+        position: absolute;
+        right: 60px;
+        top: 570px;
+        border-radius: 16px;
+        background: #FF5400;
+        width: 200px;
+        height: 80px;
+      
+    }
 
 
 
