@@ -206,37 +206,17 @@
         background: #FF5400;
         width: 200px;
         height: 80px;
-      
+
     }
 
+    .first-box {
+        flex-wrap: wrap;
+    }
 
+    .second-box {
+        flex-wrap: wrap;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
+    .third-box {
+        flex-wrap: wrap;
+    }

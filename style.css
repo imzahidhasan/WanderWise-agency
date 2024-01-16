@@ -575,14 +575,47 @@ footer hr {
     background: rgba(19, 19, 24, 0.10);
 }
 
+.desitination-section {
+    width: 80%;
+    margin: 0 auto;
+}
 
-/* 
+.first-box img {
+    width: 100%;
 
-@media screen and (max-width:360px) {
+}
 
-    .offer-details {
-        right: 9px;
+.first-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
 
+.second-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
 
+.second-box img {
+    width: 100%;
+}
 
-    } */
+.third-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.third-box {
+    width: 101%;
+    margin: 4px auto;
+}
+
+.third-box img {
+    width: 100%;
+}
