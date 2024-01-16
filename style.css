@@ -138,10 +138,59 @@ button i {
 
 }
 
+.popular-tour {
+    width: 80%;
+    margin: 70px auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
 
+.popular-text {
+    width: 50%;
 
+}
 
+.popular-text h2 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
 
+.popular-text button {
+    margin-top: 40px;
+}
+
+.popular-text p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 15px;
+}
+
+.popular-text ul {
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.popular-text ul li {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 15px;
+    line-height: 26px;
+
+}
+
+.popular-img {
+    width: 50%;
+
+}
+
+.popular-img img {
+    width: 100%;
+}
 
 @media screen and (max-width: 600px) {
     body {
@@ -180,11 +229,11 @@ button i {
     }
 
     .banner-section {
-        height: auto;
+        height: 600px;
     }
 
     .select-ooptions {
-        margin: 0 auto;
+        margin: 50px auto;
     }
 
     .select-ooptions select {
@@ -195,6 +244,18 @@ button i {
 
     }
 
+    .banner-section .text-box h2 {
+        padding: 15px;
+        font-size: 30px;
+
+    }
+
+    .banner-section .text-box p {
+        color: #FFF;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
     button {
         margin-top: 10px;
         width: 90%;
@@ -202,4 +263,17 @@ button i {
         height: 52px;
     }
 
+    .popular-tour {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .popular-img {
+        width: 100%;
+
+    }
+
+    .popular-text{
+        width: 100%;
+    }
 }
