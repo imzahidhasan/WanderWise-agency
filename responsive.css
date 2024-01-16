@@ -35,7 +35,7 @@
     }
 
     .banner-section {
-        height: 600px;
+        height: 800px;
     }
 
     .select-ooptions {
@@ -128,7 +128,13 @@
         top: 188px;
         right: 100px;
         left: 74px;
+        position: relative;
+        left: 50px;
     }
+
+
+
+
 
 
     .icons {
@@ -148,10 +154,6 @@
     }
 
 
-    .offer-details {
-        position: relative;
-        left: 50px;
-    }
 
     .place-video-div {
         flex-direction: column;

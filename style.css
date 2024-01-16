@@ -14,7 +14,7 @@ header {
 
 body {
     max-width: 1365px;
-    /* border: 2px solid red; */
+    border: 2px solid red;
     font-family: 'Mulish', sans-serif;
     margin: 0 auto;
 }
@@ -70,7 +70,7 @@ nav {
     background-repeat: no-repeat;
     background-size: cover;
     width: 80%;
-    height: 500px;
+    height: 600px;
     margin: auto;
 
 }
