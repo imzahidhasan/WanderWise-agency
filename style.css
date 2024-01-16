@@ -277,6 +277,108 @@ button i {
     padding: 10px;
 }
 
+.deal-heading {
+    margin: 25px auto;
+    width: 80%;
+}
+
+.deal-heading h2 {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+    font-weight: 800;
+}
+
+.deal-heading p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 60%;
+    margin: 25px auto;
+}
+
+
+.offer-box {
+    width: 80%;
+    margin: 25px auto;
+    position: relative;
+    height: 500px;
+    border-radius: 16px;
+    background-image: url("Images/Group 39.png");
+}
+
+.offerbox2 {
+    background-image: url("Images/Group 40.png");
+    position: relative;
+}
+.offerDeatails2{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.offer-details {
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    width: 45%;
+    height: 450px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.icons {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    color: #FF5400;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.offer-details * {
+    margin: 10px 10px;
+}
+
+.offer-details h4 {
+    color: #131318;
+    margin: 25px 10px;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.offer-details p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.price-div p {
+    color: #FF5400;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+
+.btn-div{
+    width: 80%;
+    margin: 0 auto;
+   
+}
+.btn-div button{
+    display: block;
+    margin: 25px auto;
+}
+
 
 
 
@@ -378,14 +480,30 @@ button i {
     .heading-box h2 {
         font-size: 30px;
     }
-    .box2{
+
+    .box2 {
         width: 80%;
-        
+
     }
 
     .heading-box p {
         font-size: 13px;
     }
 
-   
+
+
+    .deal-heading {
+        margin: 25px auto;
+        width: 80%;
+    }
+
+    .deal-heading h2 {
+        font-size: 30px;
+    }
+
+    .deal-heading p {
+        font-size: 16px;
+    }
+
+
 }
