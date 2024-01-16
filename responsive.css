@@ -1,0 +1,214 @@
+@media screen and (max-width: 600px) {
+    body {
+        max-width: 600px;
+
+    }
+
+    .nav-menu ul {
+        display: none;
+
+    }
+
+    nav {
+        padding: 5px;
+        gap: 10px;
+    }
+
+    .menu-icon i {
+        display: block;
+        font-size: 25px;
+
+    }
+
+    header {
+        margin-top: 10px;
+    }
+
+    .nav-logo {
+        font-size: 10px;
+        font-weight: 800;
+        min-width: 200px;
+    }
+
+    .nav-logo img {
+        width: 40px;
+    }
+
+    .banner-section {
+        height: 600px;
+    }
+
+    .select-ooptions {
+        margin: 50px auto;
+    }
+
+    .select-ooptions select {
+        width: 90%;
+        height: 52px;
+        margin-top: 10px;
+
+
+    }
+
+    .banner-section .text-box h2 {
+        padding: 15px;
+        font-size: 30px;
+
+    }
+
+    .banner-section .text-box p {
+        color: #FFF;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    button {
+        margin-top: 10px;
+        width: 90%;
+        color: #FFF;
+        height: 52px;
+    }
+
+    .popular-tour {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .popular-img {
+        width: 100%;
+
+    }
+
+    .popular-text {
+        width: 100%;
+    }
+
+    .service-box {
+        flex-direction: column;
+        margin-top: 15px;
+    }
+
+    .service-content {
+        margin: 15px auto;
+        width: 100%;
+    }
+
+    .heading-box h2 {
+        font-size: 30px;
+    }
+
+    .box2 {
+        width: 80%;
+
+    }
+
+    .heading-box p {
+        font-size: 13px;
+    }
+
+
+
+    .deal-heading {
+        margin: 25px auto;
+        width: 80%;
+    }
+
+    .deal-heading h2 {
+        font-size: 30px;
+    }
+
+    .deal-heading p {
+        font-size: 16px;
+    }
+
+
+    .offer-details {
+        width: 275px;
+        height: 300px;
+        top: 188px;
+        right: 100px;
+        left: 74px;
+    }
+
+
+    .icons {
+        font-size: 5px;
+    }
+
+    .offer-details h4 {
+        margin: 10px;
+        font-size: 14px;
+
+
+    }
+
+    .offer-details p {
+        font-size: 10px;
+        line-height: 16px;
+    }
+
+
+    .offer-details {
+        position: relative;
+        left: 50px;
+    }
+
+    .place-video-div {
+        flex-direction: column;
+    }
+
+
+    .place-text {
+        width: 100%;
+
+    }
+.place-text h2 {
+    font-size: 30px;
+    line-height: 40px;
+}
+.place-text p {
+    line-height: 30px;
+}
+.place-text button{
+    width: 120px;
+    margin: 15px auto;
+
+}
+
+.place-text ul {
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
